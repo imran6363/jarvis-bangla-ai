@@ -1,0 +1,17 @@
+BoxLayout:
+    orientation: "vertical"
+    padding: 20
+    spacing: 20
+
+    Label:
+        text: "JARVIS"
+        font_size: 40
+
+    Label:
+        id: output_text
+        text: "Ready Boss"
+        font_size: 18
+
+    Button:
+        text: "ACTIVATE"
+        on_press: app.run_ai()

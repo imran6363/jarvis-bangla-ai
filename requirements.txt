@@ -1,0 +1,5 @@
+openai
+kivy
+gtts
+playsound
+speechrecognition
